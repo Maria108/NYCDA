@@ -1,0 +1,42 @@
+section {
+    background-image: url("fff.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    color: aliceblue;
+    font-size: 40px;
+    font-family: serif;
+    text-indent: 50px;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 70px;
+    font-family: serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(243, 101, 101);
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}

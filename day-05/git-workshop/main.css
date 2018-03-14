@@ -1,0 +1,16 @@
+h1 {
+    background-color: #ea5169;
+    text-decoration-color: black;
+    text-align: center;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    white-space: nowrap;
+}
+
+footer {
+    background-color: #ea5169;
+    text-align: center;
+}

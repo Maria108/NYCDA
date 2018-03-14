@@ -1,0 +1,18 @@
+#container {
+    height: 400px;
+}
+
+.box {
+    width: 25%;
+    height: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+    font-size: 110%
+}
+
+.box:nth-child(2) {
+    background-color: green
+}
