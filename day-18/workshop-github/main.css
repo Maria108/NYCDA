@@ -1,0 +1,64 @@
+body {
+    background-color: #24292e
+}
+
+#git {
+    font-size: 8em;
+    color: white;
+}
+
+p {
+    font-size: 25px;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.pic {
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+.info {
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    color: whitesmoke
+}
+
+li {
+    color: whitesmoke;
+    text-align: left;
+    margin: inherit
+}
+
+.link {
+    color: wheat
+}
+
+.link:hover {
+    color: rgb(90, 66, 21)
+}
+
+.btn {
+    color: wheat;
+    background: black;
+    padding: 20px;
+    border-radius: 2em;
+    text-decoration: none;
+    margin: 10px 10px
+}
+
+.btn:hover {
+    color: rgb(90, 66, 21)
+}
+
+.divBtn {
+    margin: 100px;
+}
