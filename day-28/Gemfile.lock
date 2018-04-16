@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    chuck_norris (0.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  chuck_norris!
+
+BUNDLED WITH
+   1.16.1

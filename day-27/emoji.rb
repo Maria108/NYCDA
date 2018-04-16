@@ -27,6 +27,7 @@ class Emoji
 end
 
 emoji = Emoji.new("I am just an original string")
+mymood = Emoji.new("I am a new string")
 
 puts emoji.original
 puts emoji.happy
