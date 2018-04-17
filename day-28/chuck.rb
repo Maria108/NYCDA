@@ -2,7 +2,9 @@ require 'chuck_norris'
 
 class ChuckJokes
   def help
-
+    puts "Use random to get a random quote"
+    puts "Use get_joke_by_id(id_number) to get a joke by id"
+    puts "Use replace_name(name) to replace Chuck's name with a name"
   end
 
   def get_joke_by_id(id)
