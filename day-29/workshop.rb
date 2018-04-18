@@ -48,7 +48,7 @@ class LinkedList
     end
   end
 
-  def return_list
+  def show
     elements = []
     current = @head
     while current.next != nil
@@ -65,10 +65,12 @@ array.add(10)
 
 array.add(13)
 
-# p array.return_list
 
 # p array.remove(20)
 
 p array.insert(11, 13)
 p array
+
+p array.show
+
 
