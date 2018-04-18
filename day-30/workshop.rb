@@ -39,8 +39,8 @@ puts fizz_buzz(100)
 # Pig Latin is a game of alterations played on the English language. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield anana-bay). Check out Wikipedia for more information on rules - try to get as close as possible.
 
 def pig_latin(str)
+  new_str = str.downcase.scan(/\w+/)
   output = []
-  new_str = str.split(" ")
   vowels = ["a", "e", "i", "o", "u"]
   new_str.each do |element|
     first = []
@@ -60,3 +60,5 @@ def pig_latin(str)
 end
 
 puts pig_latin("banana drama anna kata") # anana-bay ama-dray
+
+

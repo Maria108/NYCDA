@@ -34,7 +34,7 @@ class LinkedList
     end
   end
 
-  def insert(element, data)
+  def insert(index, data)
     current = @head
     if current.data == data
       current.next = Node.new(element, current.next)
@@ -64,9 +64,12 @@ array = LinkedList.new(1)
 array.add(10)
 
 array.add(13)
+array.add(16)
 
 
-# p array.remove(20)
+
+
+p array.remove(13)
 
 p array.insert(11, 13)
 p array
