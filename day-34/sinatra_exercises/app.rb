@@ -13,7 +13,6 @@ end
 
 get "/form" do
   @username, @password = params[:username], params[:password]
-
   erb :form
 end
 
